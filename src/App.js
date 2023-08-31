@@ -2,10 +2,12 @@ import React from 'react'
 import Navbar from './components/Navbar';
 
 function App() {
+
   return (
-    <h1 className="">
+    <div className="">
       <Navbar />
-    </h1>
+      
+    </div>
   )
 }
 
