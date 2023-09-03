@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.710a349b.css",
-    "main.js": "/website/static/js/main.123ddc38.js",
+    "main.css": "/website/static/css/main.f8ce7d24.css",
+    "main.js": "/website/static/js/main.bb4c765f.js",
     "static/media/Jordan_An_Resume2023.jpg": "/website/static/media/Jordan_An_Resume2023.3e67030ad64665bf5710.jpg",
     "index.html": "/website/index.html",
-    "main.710a349b.css.map": "/website/static/css/main.710a349b.css.map",
-    "main.123ddc38.js.map": "/website/static/js/main.123ddc38.js.map"
+    "main.f8ce7d24.css.map": "/website/static/css/main.f8ce7d24.css.map",
+    "main.bb4c765f.js.map": "/website/static/js/main.bb4c765f.js.map"
   },
   "entrypoints": [
-    "static/css/main.710a349b.css",
-    "static/js/main.123ddc38.js"
+    "static/css/main.f8ce7d24.css",
+    "static/js/main.bb4c765f.js"
   ]
 }
