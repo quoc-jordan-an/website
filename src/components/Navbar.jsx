@@ -8,10 +8,8 @@ const Navbar = () => {
     const [showResume, setShowResume] = React.useState(false);
     const navigation = 
     [
-        { name: "Home", href: "website/", current: true },
-        // { name: "Admin", href: "/admin", current: false },
-        { name: "Projects", href: "website/projects", current: false },
-        // { name: "About", href: "/about", current: false },
+        { name: "Home", href: "/", current: true },
+        { name: "Projects", href: "projects", current: false },
     ];
 
     function classNames(...classes) {
