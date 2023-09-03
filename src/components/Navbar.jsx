@@ -1,11 +1,8 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
-import { Transition } from '@headlessui/react'
-import Resume from '../assets/Jordan_An_Resume2023.jpg'
 import ResumeButton from './ResumeButton';
 
 const Navbar = () => {
-    const [showResume, setShowResume] = React.useState(false);
     const navigation = 
     [
         { name: "Home", href: "/", current: true },
@@ -20,11 +17,11 @@ const Navbar = () => {
     return (
         // https://flowbite.com/docs/components/navbar/
 
-        <nav class=" border-gray-200 bg-gray-900 ">
-            <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4 py-3">
-                <a href="#" class="flex items-center">
+        <nav className=" border-gray-200 bg-gray-900 sticky top-0 z-50">
+            <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4 py-3">
+                <a href="/#" className="flex items-center">
                     {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> */}
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Jordan An</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Jordan An</span>
                 </a>
 
                 <div className="sm:ml-6 sm:block items-center text-lg justify-between hidden w-full md:flex md:w-auto md:order-1">
@@ -52,7 +49,7 @@ const Navbar = () => {
                   </div>
                 </div>
 
-                <div class="flex md:order-2">
+                <div className="flex md:order-2">
                     <ResumeButton/>
                 </div>
             </div>

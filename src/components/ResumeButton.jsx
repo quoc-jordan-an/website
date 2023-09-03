@@ -6,7 +6,7 @@ function ResumeButton() {
     const [showResume, setShowResume] = React.useState(false)
     return (
         <>
-            <button onClick={() => setShowResume(true)} type="button" class="text-white hover:ring-2 hover:outline-none focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
+            <button onClick={() => setShowResume(true)} type="button" className="text-white hover:ring-2 hover:outline-none focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
                 Resume
             </button>
             <Transition
